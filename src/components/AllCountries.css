@@ -53,7 +53,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:460px){
     .search{
        flex-direction: column;
        padding: 0;
@@ -66,8 +66,7 @@
 
    .filter{
     width: 40%;
-    margin-left: 1.2rem;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 1.4rem;
    }
 
    .show-all-countries{

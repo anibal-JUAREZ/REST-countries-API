@@ -78,7 +78,7 @@
  }
 
 
- @media screen and (max-width:375px){
+ @media screen and (max-width:460px){
     .country-detail{
       padding-left:2rem;
     }

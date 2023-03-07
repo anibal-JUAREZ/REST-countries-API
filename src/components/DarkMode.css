@@ -1,0 +1,12 @@
+.dark-mode-bc{
+    background-color: hsl(209, 23%, 22%) !important;
+    color: #fff;
+  }
+
+.dark-mode-color{
+  color: #fff;
+}
+
+.container-backgroundcolor{
+  background-color: hsl(207, 26%, 17%);
+}

@@ -1,0 +1,113 @@
+.country-detail{
+    padding-left:4rem;
+    background-color: transparent;
+    /* margin-top: .5rem;  */
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+    
+}
+
+.back-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.18);
+    width: 7rem;
+    padding: .5rem 1.5rem;
+    border-radius: .25rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+.back-button svg{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+.back-button p:only-of-type{
+    font-size: .8rem;
+}
+
+.country-card{
+    display: flex;
+    
+}
+
+.country-card img{
+    width: 40%;
+    margin-right: 5rem;
+}
+
+.country-card .country-card-information{
+    width: 60%;
+    padding: 1rem 0;
+    
+}
+
+.country-card .country-card-information h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.country-card .country-card-information div:nth-child(2){
+    display: flex;
+}
+
+.country-card .country-card-information div:nth-child(2) section:first-child{
+    margin-right:5rem;
+}
+
+.country-card .country-card-information div:nth-child(2) section p{
+   font-weight: 600;
+   margin-bottom: .5rem;
+}
+
+.country-card .country-card-information div:nth-child(2) section p span{
+    font-weight: 300;
+    
+ }
+
+ .borders{
+    margin-top: 3rem;
+    display: flex;
+ }
+ .borders p:first-of-type{
+    font-weight: 600;
+ }
+
+
+ @media screen and (max-width:375px){
+    .country-detail{
+      padding-left:2rem;
+    }
+
+    .country-card{
+        flex-direction: column;
+     }
+
+    .country-card img{
+        width: 90%;
+     }
+
+     .country-card .country-card-information{
+        width: 90%;
+     }
+
+     .country-card .country-card-information div:nth-child(2){
+        flex-direction: column;
+    }
+
+    .country-card .country-card-information div:nth-child(2) section:nth-of-type(2){
+        margin-top: 2rem;
+    }
+
+    .borders{
+       flex-wrap: wrap;
+     }
+     .borders p:first-child{
+        width: 100%;
+      }
+ }
+ 
